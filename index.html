@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filter</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+
+    <input type="text" class="input" onchange="Changer()">
+
+    <!-- BUTTONS -->
+    <div class="buttons">
+      <button class="active" onclick="Adder()" id="All">All items</button>
+      <button id="sam" onclick="Adder2()">Samsung</button>
+      <button id="red" onclick="Adder3()">Redmi</button>
+      <button id="iph" onclick="Adder4()">Iphone</button>
+    </div>
+
+    <!-- kardlar -->
+    
+    <div class="cards">
+      <div class="card" id="iph2">
+        <img src="./image/iph-11.jpg" alt="image">
+        <h2>Iphone 11</h2>
+        <p>Price: $600</p>
+      </div>
+
+      <div class="card" id="iph1">
+        <img src="./image/iph-14.jpg" alt="image">
+        <h2>Iphone 14</h2>
+        <p>Price: $3000</p>
+      </div>
+
+      <div class="card" id="red2">
+        <img src="./image/red-10.jpg" alt="image">
+        <h2>Redmi 10</h2>
+        <p>Price: $200</p>
+      </div>
+      
+      <div class="card " id="red1">
+        <img src="./image/red-14.jpg" alt="image">
+        <h2>Redmi 14</h2>
+        <p>Price: $600</p>
+      </div>
+
+
+      <div class="card" id="sam2">
+        <img src="./image/sam-21.jpg" alt="image">
+        <h2>Samsung 21</h2>
+        <p>Price: $1000</p>
+      </div>
+      
+      <div class="card" id="sam1">
+        <img src="./image/sam-23.jpg" alt="image">
+        <h2>Samsung 23</h2>
+        <p>Price: $1400</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
